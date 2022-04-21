@@ -44,6 +44,7 @@ cat drawing.flag.svg | grep "</tspan" | cut -d ">" -f2 | cut -d "<" -f1 | tr -d 
 
 ![No Space Image](nospace.png)
 
+
 But the space distance was so annoying, so i add a few command like this to delete the spaces
 
 ```bash
